@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  }
+}
