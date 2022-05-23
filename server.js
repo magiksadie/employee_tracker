@@ -50,7 +50,7 @@ function promptQuestions() {
 // -- Functions --
 // View All Departments
 function viewAllDepartments() {
-    connection.promise().query('SELECT * FROM employee').then(([ departments ]) => {
+    connection.promise().query('SELECT * FROM department').then(([ departments ]) => {
         console.table(departments);
         promptQuestions();
         });
